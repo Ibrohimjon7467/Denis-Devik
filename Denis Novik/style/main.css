@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color:#212121;
+    --link-color: #828282;
+}
+.dark{
+    --primary-color: #000106;
+    --secondary-color:#fff;
+}
+body{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+.container{
+    width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+.aif{
+    align-items: flex-end;
+}
+.jcc{
+    justify-content: center;
+}
+.jcb{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #070707;
+    text-align: center;
+}
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+}
+/* header */
+.nav-bar{
+    width: 100%;
+    padding: 30px 0;    
+    border-bottom: 1px solid var(--link-color);
+}
+.header_menu li a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: var(--link-color);
+}
+/* header */
+
+.toggle-btn{
+    width: 150px;
+    height: 40px;
+
+}
+#icon{
+    width: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/* Information */
+.inform{
+    margin-top: 40px;
+}
+.info .name{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 59px;
+    color: var(--secondary-color);
+}
+.info .job{
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--secondary-color);
+}
+.info svg{
+    cursor: pointer;
+}
+.info_img img{
+    width: 100%;
+    margin-top: 50px;
+}
+/* Information */
+
+/* About */
+.about{
+    width: 100%;
+    margin-top: 105px;
+    background: #F6F6F6;
+}
+.about .container{
+    text-align: center;
+}
+.about .text{
+    margin: 17.5px 0 107px 0;
+}
+.about .title{
+    margin-top: 120px;
+}
+/* About */
+
+/* Skills */
+.skills{
+    text-align: center;
+    margin-top: 91px;
+}
+.skills .text{
+    margin: 70px 0 83.5px 0;
+}
+.skils .box{
+    width: 17%;
+    height: 217px;
+}
+.skill_name{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: var(--link-color);
+    margin: 22px 0 38px 0;
+    cursor: pointer;
+}
+.box:last-child .skill_name{
+    margin-bottom: 56px;
+}
+.box svg:last-child{
+    cursor: pointer;
+}
+/* Skills */
+
+/* Portfolio */
+.portfolio{
+    width: 100%;
+    margin-top: 110px;
+    text-align: center;
+    background: var(--primary-color);
+    padding-bottom: 96px;
+}
+.portfolio .title{
+    margin-top: 112px;
+}
+.portfolio .container img:first-child{
+    margin-top: 47px;
+}
+.portfolio img{
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 44px;
+}
+.portfolio a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--secondary-color);
+}
+.portfolio a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Portfolio */
+
+/* Contacts */
+.contacts{
+    width: 100%;
+    text-align: center;
+    margin-top: 114px;
+}
+.contacts .text{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    color: var(--primary-color);
+    margin-top: 30px;
+    transition: all .2s;
+    background: linear-gradient(to right, #070707, rgb(18, 18, 195));
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 7px 14px 2px #070707;
+    background: linear-gradient(to left, #070707, rgb(18, 18, 195));
+}
+.footer_icons{
+    margin-top: 86px;
+    cursor: pointer;
+}
+.footer_icons img{
+    background: var(--link-color);
+    padding: 10px;
+}
+.footer_end{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 45.5px;
+    margin-bottom: 120px;
+    color: var(--link-color);
+    cursor: pointer;
+}
+/* Contacts */
